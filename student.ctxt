@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=student
-comment1.params=a\ b\ c\ d\ e\ f\ g
-comment1.target=student(double,\ double,\ double,\ double,\ double,\ double,\ double)
-comment1.text=\r\n\ constructor\r\n\ sets\ up\ all\ grades\ for\ further\ use\r\n
-numComments=2
