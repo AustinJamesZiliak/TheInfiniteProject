@@ -10,6 +10,7 @@ public class student {
      * @param double of all 8 classes grades
      */
     public student (double grade1, double grade2, double grade3, double grade4, double grade5, double grade6, double grade7, double grade8) {
+        // sets up grades from passed grades
         setGrade(1, grade1);
         setGrade(2, grade2);
         setGrade(3, grade3);
@@ -22,6 +23,7 @@ public class student {
 
     /**
      * Grade Setter
+     * @param int class period, double grade in class
      */
     public void setGrade(int classRefenced, double Grade) {
         if (classRefenced == 1)
@@ -41,4 +43,28 @@ public class student {
         else if (classRefenced == 8)
             class8Grade = Grade;
     }
+
+    /**
+     * Grade Setter
+     */
+    public double getGrade(int classRefenced) {
+        if (classRefenced == 1)
+            return class1Grade;
+        else if (classRefenced == 2)
+            return class2Grade;
+        else if (classRefenced == 3)
+            return class3Grade;
+        else if (classRefenced == 4)
+            return class4Grade;
+        else if (classRefenced == 5)
+            return class5Grade;
+        else if (classRefenced == 6)
+            return class6Grade;
+        else if (classRefenced == 7)
+            return class7Grade;
+        else if (classRefenced == 8)
+            return class8Grade;
+        return -999.0; //if a non valid class is inputed then grade will be returned as -999.0
+    }
+
 }
