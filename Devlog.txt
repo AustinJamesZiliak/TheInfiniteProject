@@ -1,2 +1,5 @@
 Austin Ziliak 11/29/2023 8:55pm:
 Tonight I set up the project and started the student class which holds grades. The purpose of This project is to take grades, missing assignments, and recent low-scoring assignments(hopefully scraped from Infinite Campus) and apply them to an algorithm to determine where students need to go for soar. Eventually, we need to implement a temporary file IO system so we can do tests on a large bulk of students.
+
+Austin Ziliak 11/30/2023, 7:57pm:
+Having major issues with file IO in VS code, in bluejay it worked but its an issue for now. Suprisingly jack didnt cause this issue.

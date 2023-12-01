@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=student
+comment1.params=grade1\ grade2\ grade3\ grade4\ grade5\ grade6\ grade7\ grade8
+comment1.target=student(double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\r\n\ Constructor\r\n\ sets\ up\ classes\ for\ student\r\n\ @param\ double\ of\ all\ 8\ classes\ grades\r\n
+comment2.params=classRefenced\ Grade
+comment2.target=void\ setGrade(int,\ double)
+comment2.text=\r\n\ Grade\ Setter\r\n\ @param\ int\ class\ period,\ double\ grade\ in\ class\r\n
+comment3.params=classRefenced
+comment3.target=double\ getGrade(int)
+comment3.text=\r\n\ Grade\ Setter\r\n
+numComments=4
