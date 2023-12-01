@@ -6,10 +6,18 @@ public class main {
         try {
         File gradesFile = new File("gradeTest.txt");
         Scanner reader = new Scanner(gradesFile);
-            System.out.println(reader.next());
+        int a= Integer.parseInt(reader.next());
+        int b= Integer.parseInt(reader.next());
+        int c= Integer.parseInt(reader.next());
+        int d= Integer.parseInt(reader.next());
+        int e= Integer.parseInt(reader.next());
+        int f= Integer.parseInt(reader.next());
+        int g= Integer.parseInt(reader.next());
+        int h= Integer.parseInt(reader.next());
+        student austin = new student(a,b,c,d,e,f,g,h);
         }
         catch (java.io.FileNotFoundException e) {
-            System.out.println("Error: "+e+ "occurred.");
+            System.out.println("Error: "+e+ " occurred.");
       
           }
     }

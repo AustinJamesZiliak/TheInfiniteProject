@@ -20,7 +20,6 @@ public class student {
         setGrade(7, grade7);
         setGrade(8, grade8);
     }
-
     /**
      * Grade Setter
      * @param int class period, double grade in class
@@ -64,6 +63,7 @@ public class student {
             return class7Grade;
         else if (classRefenced == 8)
             return class8Grade;
+            else
         return -999.0; //if a non valid class is inputed then grade will be returned as -999.0
     }
 
